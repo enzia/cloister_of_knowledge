@@ -1,6 +1,6 @@
 class Node {
     // References the next node
-    next: Node | null
+    next: Node
     // The data stored by the node
     data: string
 
@@ -12,7 +12,7 @@ class Node {
 
 class LinkedList {
     // References the first node in the list
-    head: Node | null
+    head: Node
 
     constructor() {
         this.head = null
